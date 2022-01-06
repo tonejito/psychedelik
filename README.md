@@ -1,8 +1,8 @@
-# Psychedelik.com
+# psychedelik.com
 
 	PSYCHEDELIK.COM | Streaming Psytrance since 2001
 
-> You are listening to psyckedelik.com, that is psychedelic with a 'k'
+> [You are listening to `psyckedelik.com`, that is _psychedelic_ with a 'k'](psychedelik.mp3)
 
 The web site used to be located at `psychedelik.com`, either via
 [HTTP][http-website] or [HTTPS][https-website].
