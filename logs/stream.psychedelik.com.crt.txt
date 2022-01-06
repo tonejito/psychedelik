@@ -1,0 +1,82 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            2d:37:52:e8:1c:81:c4:ad:a6:97:dd:aa:48:02:58:64
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=FR, ST=Paris, L=Paris, O=Gandi, CN=Gandi Standard SSL CA 2
+        Validity
+            Not Before: Nov  9 00:00:00 2020 GMT
+            Not After : Nov  9 23:59:59 2021 GMT
+        Subject: CN=stream.psychedelik.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:f4:02:5d:06:1c:a3:b4:ef:d0:6f:2c:51:63:bf:
+                    38:51:75:96:8a:8c:a1:fe:a0:1f:89:18:c2:15:30:
+                    8f:1d:97:49:19:25:b0:00:86:63:dd:e3:a3:54:74:
+                    97:c4:46:79:a5:a3:8a:dd:fd:03:09:80:e9:cd:57:
+                    41:3a:99:c2:d8:ea:0f:9d:1c:db:d1:ae:6b:86:29:
+                    cd:d2:2d:3e:d3:c7:ee:9f:4b:cb:73:d9:a9:db:1a:
+                    50:46:75:2a:2a:81:60:30:d3:88:25:9a:a6:ce:59:
+                    c7:61:4d:c7:db:b6:cf:b8:d7:e9:ba:b6:77:56:1f:
+                    d3:2e:0c:11:c2:42:9f:ba:56:95:db:bc:9d:eb:17:
+                    04:48:30:53:80:a0:46:6b:06:ae:be:47:5b:9f:a1:
+                    0c:f7:35:b7:22:d4:4e:93:20:db:12:cd:da:49:ed:
+                    68:48:91:7c:92:6f:8a:de:ad:23:bd:b8:1f:ba:03:
+                    d6:bc:ac:ac:46:29:8b:33:3d:5f:a4:c9:7e:1e:2a:
+                    f8:37:d3:56:67:07:21:00:6b:21:dd:31:5b:e3:d1:
+                    2a:89:8b:38:ee:d7:65:72:37:80:8e:52:e9:92:a1:
+                    7f:16:b4:9e:25:63:1e:1c:95:30:59:d4:ca:56:aa:
+                    63:e1:e3:ac:91:80:e6:e4:fc:4e:7b:cc:6e:e1:29:
+                    ba:2f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                keyid:B3:90:A7:D8:C9:AF:4E:CD:61:3C:9F:7C:AD:5D:7F:41:FD:69:30:EA
+
+            X509v3 Subject Key Identifier: 
+                49:B6:F1:F4:C1:34:BC:08:44:3D:6B:94:20:84:43:B4:C8:8E:1B:BE
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Certificate Policies: 
+                Policy: 1.3.6.1.4.1.6449.1.2.2.26
+                  CPS: https://cps.usertrust.com
+                Policy: 2.23.140.1.2.1
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.usertrust.com/GandiStandardSSLCA2.crl
+
+            Authority Information Access: 
+                CA Issuers - URI:http://crt.usertrust.com/GandiStandardSSLCA2.crt
+                OCSP - URI:http://ocsp.usertrust.com
+
+            X509v3 Subject Alternative Name: 
+                DNS:stream.psychedelik.com, DNS:www.stream.psychedelik.com
+            1.3.6.1.4.1.11129.2.4.2: 
+                ......w.}>.....Uh$....R.y+..x...j.h.~".....u.b.w.....H0F.!..].8A.!)...W.u......}.K....Z.~#.!...ue..s....P.0. ..*)..
+..A.
+...S.v.. .....l.s...",..M^lO.=a.N/XM.....u.b.......G0E.!..N~g....I..F..o....MIS.Gd3...m.b. .; ....<8...r=..;c&..'3.nM.=8...
+    Signature Algorithm: sha256WithRSAEncryption
+         30:14:1d:ec:50:6f:4b:90:c4:98:14:2a:21:48:4e:45:75:59:
+         4f:37:27:57:eb:e2:c5:25:d8:88:0e:e1:37:70:75:ea:cf:bb:
+         ba:38:94:66:82:c3:4e:35:00:82:db:85:5b:6d:87:ab:da:42:
+         75:99:05:1d:ec:13:1f:72:41:b0:03:37:28:ec:fa:d4:05:95:
+         a6:8b:83:3b:fd:90:eb:25:33:f8:97:96:f7:a9:e6:85:8e:c0:
+         5a:44:bf:89:20:c1:40:b4:a4:32:03:f6:d2:f4:d4:17:e5:94:
+         7e:b0:21:0b:7f:99:20:e4:56:3f:05:98:c2:82:01:ee:fc:74:
+         c0:e3:7f:0e:ef:aa:bd:f5:7b:49:22:77:3d:3f:22:99:0a:10:
+         9b:f4:93:6a:5c:82:cd:b7:24:f9:6f:5e:88:7a:c3:a4:18:f6:
+         dd:b3:ab:bf:de:5b:fb:72:e4:7a:b4:fe:46:e5:ad:65:1f:b5:
+         3c:ec:88:e8:e7:25:8c:b5:38:07:74:63:48:42:4e:6a:61:1d:
+         20:c9:0a:38:f5:ec:58:22:57:e9:e0:b3:ac:1e:cf:32:51:5e:
+         3a:b1:90:91:28:3c:7a:c5:3c:da:cf:44:d8:d2:73:16:d1:a2:
+         36:80:ac:61:95:cb:3f:4b:98:ad:64:2f:0a:88:b5:1e:9f:e8:
+         1f:6e:29:82

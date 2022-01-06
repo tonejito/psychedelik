@@ -1,0 +1,86 @@
+$ openssl s_client -showcerts -connect 62.210.114.63:8000 < /dev/null
+depth=0 CN = stream.psychedelik.com
+verify error:num=20:unable to get local issuer certificate
+verify return:1
+depth=0 CN = stream.psychedelik.com
+verify error:num=21:unable to verify the first certificate
+verify return:1
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:/CN=stream.psychedelik.com
+   i:/C=FR/ST=Paris/L=Paris/O=Gandi/CN=Gandi Standard SSL CA 2
+-----BEGIN CERTIFICATE-----
+MIIF2jCCBMKgAwIBAgIQLTdS6ByBxK2ml92qSAJYZDANBgkqhkiG9w0BAQsFADBf
+MQswCQYDVQQGEwJGUjEOMAwGA1UECBMFUGFyaXMxDjAMBgNVBAcTBVBhcmlzMQ4w
+DAYDVQQKEwVHYW5kaTEgMB4GA1UEAxMXR2FuZGkgU3RhbmRhcmQgU1NMIENBIDIw
+HhcNMjAxMTA5MDAwMDAwWhcNMjExMTA5MjM1OTU5WjAhMR8wHQYDVQQDExZzdHJl
+YW0ucHN5Y2hlZGVsaWsuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEA9AJdBhyjtO/QbyxRY784UXWWioyh/qAfiRjCFTCPHZdJGSWwAIZj3eOjVHSX
+xEZ5paOK3f0DCYDpzVdBOpnC2OoPnRzb0a5rhinN0i0+08fun0vLc9mp2xpQRnUq
+KoFgMNOIJZqmzlnHYU3H27bPuNfpurZ3Vh/TLgwRwkKfulaV27yd6xcESDBTgKBG
+awauvkdbn6EM9zW3ItROkyDbEs3aSe1oSJF8km+K3q0jvbgfugPWvKysRimLMz1f
+pMl+Hir4N9NWZwchAGsh3TFb49EqiYs47tdlcjeAjlLpkqF/FrSeJWMeHJUwWdTK
+Vqpj4eOskYDm5PxOe8xu4Sm6LwIDAQABo4ICzjCCAsowHwYDVR0jBBgwFoAUs5Cn
+2MmvTs1hPJ98rV1/Qf1pMOowHQYDVR0OBBYEFEm28fTBNLwIRD1rlCCEQ7TIjhu+
+MA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUF
+BwMBBggrBgEFBQcDAjBLBgNVHSAERDBCMDYGCysGAQQBsjEBAgIaMCcwJQYIKwYB
+BQUHAgEWGWh0dHBzOi8vY3BzLnVzZXJ0cnVzdC5jb20wCAYGZ4EMAQIBMEEGA1Ud
+HwQ6MDgwNqA0oDKGMGh0dHA6Ly9jcmwudXNlcnRydXN0LmNvbS9HYW5kaVN0YW5k
+YXJkU1NMQ0EyLmNybDBzBggrBgEFBQcBAQRnMGUwPAYIKwYBBQUHMAKGMGh0dHA6
+Ly9jcnQudXNlcnRydXN0LmNvbS9HYW5kaVN0YW5kYXJkU1NMQ0EyLmNydDAlBggr
+BgEFBQcwAYYZaHR0cDovL29jc3AudXNlcnRydXN0LmNvbTA9BgNVHREENjA0ghZz
+dHJlYW0ucHN5Y2hlZGVsaWsuY29tghp3d3cuc3RyZWFtLnBzeWNoZWRlbGlrLmNv
+bTCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB3AH0+8viP/4hVaCTCwMqeUol5K8UO
+eAl/LmqXaJl+IvDXAAABda1iuHcAAAQDAEgwRgIhAM1d/DhByyEpu63KV+B1D+YF
+fwWHfbRLwtaxDedain4jAiEAjaR1ZQGzc+qYye5Q5jCnIBGmKinO/Arx0kGoCr8F
+41MAdgCUILwejtWNbIhzH4KLIiwN0dpNXmxPlD1h204vWE2iwgAAAXWtYrigAAAE
+AwBHMEUCIQCPTn5n1BIC6kmIv0YZ+2/1x9LCTUlTsEdkM//v720XYgIgDjsglo3y
+Bjw4mOa5cj35EztjJuONJzPqbk3SPTixsC4wDQYJKoZIhvcNAQELBQADggEBADAU
+HexQb0uQxJgUKiFITkV1WU83J1fr4sUl2IgO4TdwderPu7o4lGaCw041AILbhVtt
+h6vaQnWZBR3sEx9yQbADNyjs+tQFlaaLgzv9kOslM/iXlvep5oWOwFpEv4kgwUC0
+pDID9tL01BfllH6wIQt/mSDkVj8FmMKCAe78dMDjfw7vqr31e0kidz0/IpkKEJv0
+k2pcgs23JPlvXoh6w6QY9t2zq7/eW/ty5Hq0/kblrWUftTzsiOjnJYy1OAd0Y0hC
+TmphHSDJCjj17FgiV+ngs6wezzJRXjqxkJEoPHrFPNrPRNjScxbRojaArGGVyz9L
+mK1kLwqItR6f6B9uKYI=
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=/CN=stream.psychedelik.com
+issuer=/C=FR/ST=Paris/L=Paris/O=Gandi/CN=Gandi Standard SSL CA 2
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, X25519, 253 bits
+---
+SSL handshake has read 2115 bytes and written 281 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-CHACHA20-POLY1305
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-CHACHA20-POLY1305
+    Session-ID: 99A7C94DD8D4BFE0E270845B529AE539AA38279B7D3BDA4A0D7DBD7B6E596E0D
+    Session-ID-ctx: 
+    Master-Key: 9E8EB5B70E8273CF1B06D7F02FB93283F97A3129824E133ABE5F0068078482B97BB3C18A8C1DFEA33A5C2CAA01DAC9C2
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - d4 56 bf 45 8c b6 e4 e2-bf 61 f7 55 e6 5c f3 ca   .V.E.....a.U.\..
+    0010 - 4f b8 5b 36 70 23 a5 21-46 18 b9 62 8c 4c 9f db   O.[6p#.!F..b.L..
+    0020 - 6c 9d ca 3a b9 73 51 8e-41 22 7e e4 5a 76 19 cf   l..:.sQ.A"~.Zv..
+    0030 - 5f dd 43 8f d3 6b 76 02-27 a2 5c 85 a5 cd 42 f5   _.C..kv.'.\...B.
+    0040 - 32 68 0f f6 11 6f 92 c5-65 cc 39 9f 94 28 52 71   2h...o..e.9..(Rq
+    0050 - e3 2a 91 a8 36 6e 57 e8-f4 ea 57 3d 7e 66 b7 6f   .*..6nW...W=~f.o
+    0060 - 0c 05 7e 24 7a 23 b3 56-f1 f8 fe 47 e9 1a a7 c9   ..~$z#.V...G....
+    0070 - a2 a3 26 68 0e cd 10 3a-d9 73 32 40 4d 98 d3 79   ..&h...:.s2@M..y
+    0080 - 51 91 ed 23 64 04 1c 77-b9 da 00 a3 ab c7 35 1f   Q..#d..w......5.
+    0090 - f7 16 fe 5f 0b 71 4d 14-27 8b d6 54 b4 37 fd c6   ..._.qM.'..T.7..
+
+    Start Time: 1641443710
+    Timeout   : 7200 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+---
+poll error
