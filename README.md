@@ -4,6 +4,16 @@
 
 > [You are listening to `psyckedelik.com`, that is _psychedelic_ with a 'k'](psychedelik.mp3)
 
+You can open the playlist using this URL:
+
+- https://github.com/tonejito/psychedelik/raw/main/psychedelik.pls
+
+```bash
+% vlc https://github.com/tonejito/psychedelik/raw/main/psychedelik.pls
+```
+
+--------------------------------------------------------------------------------
+
 The web site used to be located at `psychedelik.com`, either via
 [HTTP][http-website] or [HTTPS][https-website].
 The stream server used to be located in `stream.psychedelik.com`, and hosted
@@ -22,6 +32,8 @@ I gathered a list of the ports and the stream that is available on each one:
 | `8014` | http://62.210.114.63:8014 | Dark
 | `8030` | http://62.210.114.63:8030 | Drum N Bass
 | `8032` | http://62.210.114.63:8032 | Mixes
+
+--------------------------------------------------------------------------------
 
 You can also stream the music via HTTPS, but beware that the certificate
 that is presented is not valid for the domain name / IP address.
